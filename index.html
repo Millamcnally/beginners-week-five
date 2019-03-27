@@ -6,19 +6,32 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>BTW Save The Animals </title>
 
-    <!-- ADD BOOTSTRAP CORE HERE!!!! -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- Custom styles for this template -->
+
     <link href="css/styles.css" rel="stylesheet">
   </head>
 
   <body>
 
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="images/york-wallcoverings-wallpaper-wk6994-64_1000.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/honeycomb-background.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/turtles-background-vector-15074135.jpeg" class="d-block w-100" alt="...">
+    </div>
+    </div>
+    </div>
+
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">BTW</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,40 +42,86 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Another Link</a>
+            <a class="nav-link" href="webpage2.html">Donations and Charities</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <main role="main" class="container">
-
+      <div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p> </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
       <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <h1>Save The Animals</h1>
+        <p class="lead">Our website aims to help the whales, bees and turtles who hare currently endangered due to climate change and huamns !<br> All donations go towards helping thier homes and saving those who are hurt.</p>
       </div>
 
-      <!-- columns -->
+
       <div class="row">
         <div class="col-sm">
-          One of three columns
+          <img src="images/whaleimage.jpg" class="d-block1 w-100" alt="...">
+          <h3>
+            The Blue Whale </h3>
+        <p>
+
+          Large whales are threatened by environmental change, including habitat loss and toxics. Althought commerical whaling no longer represents a threat, climate change and its impanct on the whales prey, make them vulnerable.The International Whaling Commission (IWC) is the body charged with regulating whaling and addressing the vast number of other threats to whales, dolphins and porpoises in our oceans such as shipping, climate change, and bycatch. WWF works to make the IWC more effective in reducing all these threats to whales.
         </div>
         <div class="col-sm">
-          One of three columns
+          <img src="images/bees_42-65769629.jpg" class="d-block2 w-100" alt="...">
+          <h3>The Bees </h3>
+        <p>
+          Bees are extrodinary creatures found all around the world. The worldwide population of bees is declining. Climate Changes, pesticides, loss of habitat, diseases are all threats to bees.Pollination not only makes food available for other organisms but also allows floral growth, which provides habitats for animals, including other insects and birds.As pollinators disappear, the effect on the health and viability of crops and native plant communities can be disastrous. We simply cannot survive without bees.
+
         </div>
         <div class="col-sm">
-          One of three columns
+        <img src="images/turtlepicture.jpeg" class="d-block3 w-100" alt="..." >
+        <h3> The Turtles </h3>
+        <p> Human activities have tipped the scales against the survival of these ancient mariners. Nearly all species of sea turtle are classified as Endangered. Slaughtered for their eggs, meat, skin and shells, sea turtles suffer from poaching and over-exploitation. They also face habitat destruction and accidental capture in fishing gear. Climate change has an impact on turtle nesting sites. It alters sand temperatures, which then affects the sex of hatchlings. </p>
         </div>
       </div>
+    <div>
+      <h2> Get the latest news on our three favorite animals by subscribing ! </h2>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Comments</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Comments">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Subscribe</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="alert alert-danger" role="alert">
+  ANIMAL EXTINCT IF YOU DON'T SUBSCRIBE
+</div>
+
 
     </main><!-- /.container -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
