@@ -5,3 +5,22 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+
+img.d-block1{
+  display: : flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 130px;
+}
+img.d-block2{
+  display: : flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 130px;
+}
+img.d-block3{
+  display: : flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 130px;
+}
